@@ -54,13 +54,23 @@ article {
 }
 
 /* Different section styles */
-article:nth-child(odd) {
-  background-color: #f0f0f0; /* Light gray */
+.cat-dogs-know {
+  background-color: #FFCC66; /* Light orange */
   color: #333;
 }
 
-article:nth-child(even) {
-  background-color: #e6e6ff; /* Light blue */
+.raise-healthy-pets {
+  background-color: #FF9999; /* Light pink */
+  color: #333;
+}
+
+.attack-me {
+  background-color: #FF9966; /* Light orange */
+  color: #333;
+}
+
+.throw-birthday-party {
+  background-color: #FFCCCC; /* Light coral */
   color: #333;
 }
 
