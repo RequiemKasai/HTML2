@@ -1,1 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: LightBlue; 
+}
+
+header {
+  background-color: LightBlue; 
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 50px; 
+  font-weight: bold; 
+  background-color: #F2D2BD; 
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid blue; 
+}
+
+.Title {
+  background-color: #3498db;
+  color: grey; 
+}
+
+nav {
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+.contact-section {
+  padding: 20px;
+  text-align: center; 
+}
+
+.contact-section article {
+  margin-bottom: 20px;
+}
+
+.contact-section h2 {
+  font-size: 20px; 
+}
+
+.contact-section p {
+  font-size: 16px; 
+  color: DarkRed;
+}
+
+#back-button-section {
+  background-color: #16a085; 
+  border: 1px solid #1abc9c; 
+  margin-bottom: 20px;
+}
+
+#email-section {
+  background-color: #3498db;
+}
+
+#mailing-section {
+  background-color: #CF9FFF; 
+}
+
+#phone-section {
+  background-color: #2ecc71; 
+}
+
+#back-btn {
+  display: block;
+  width: 100%;
+  padding: 20px; 
+  background-color: #1abc9c; 
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 10px; 
+}
+
 
