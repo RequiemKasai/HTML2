@@ -11,6 +11,11 @@ header {
   text-align: center;
 }
 
+h1 {
+  color: magenta;
+  font-weight: bold;
+}
+
 nav {
   background-color: #666;
   padding: 10px;
@@ -18,9 +23,45 @@ nav {
 }
 
 nav a {
-  color: Blue;
+  color: blue;
   text-decoration: none;
   margin: 0 10px;
+  font-size: 18px; /* Making contact link bigger */
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+
+.blog-section {
+  padding: 20px;
+}
+
+article {
+  border: 1px solid blue; /* Thin blue border */
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+/* Different section styles */
+article:nth-child(odd) {
+  background-color: #f0f0f0; /* Light gray */
+  color: #333;
+}
+
+article:nth-child(even) {
+  background-color: #e6e6ff; /* Light blue */
+  color: #333;
 }
 
 footer {
@@ -32,4 +73,3 @@ footer {
   bottom: 0;
   width: 100%;
 }
-
