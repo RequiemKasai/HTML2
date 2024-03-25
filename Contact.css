@@ -42,20 +42,20 @@ main {
   padding: 20px;
 }
 
-.contact-section {
+.contact {
   padding: 20px;
   text-align: center; 
 }
 
-.contact-section article {
+.contact article {
   margin-bottom: 20px;
 }
 
-.contact-section h2 {
+.contact h2 {
   font-size: 20px; 
 }
 
-.contact-section p {
+.contact p {
   font-size: 16px; 
   color: DarkRed;
 }
