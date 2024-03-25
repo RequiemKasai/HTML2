@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 header {
@@ -14,6 +15,7 @@ header {
 h1 {
   color: magenta;
   font-weight: bold;
+  font-size: 34px;
 }
 
 nav {
@@ -26,12 +28,12 @@ nav a {
   color: blue;
   text-decoration: none;
   margin: 0 10px;
-  font-size: 18px; /* Making contact link bigger */
+  font-size: 18px; 
 }
 
 .nav-button {
   display: inline-block;
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50; 
   border: none;
   color: white;
   text-align: center;
@@ -48,29 +50,29 @@ nav a {
 }
 
 article {
-  border: 1px solid blue; /* Thin blue border */
+  border: 1px solid blue; 
   margin-bottom: 20px;
   padding: 20px;
 }
 
-/* Different section styles */
+
 .cat-dogs-know {
-  background-color: #FFCC66; /* Light orange */
+  background-color: #FFCC66; 
   color: #333;
 }
 
 .raise-healthy-pets {
-  background-color: #FF9999; /* Light pink */
+  background-color: #FF9999; 
   color: #333;
 }
 
 .attack-me {
-  background-color: #FF9966; /* Light orange */
+  background-color: #FF9966; 
   color: #333;
 }
 
 .throw-birthday-party {
-  background-color: #FFCCCC; /* Light coral */
+  background-color: #FFCCCC; 
   color: #333;
 }
 
