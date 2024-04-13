@@ -63,7 +63,6 @@ $(document).ready(function(){
   // Load data from JSON file
   loadJSONData();
   
-  $(document).ready(function(){
   // Back button functionality
   $('#back-btn').click(function(){
     window.history.back();
