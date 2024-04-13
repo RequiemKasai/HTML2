@@ -7,7 +7,89 @@
 
 .grid-item {
   border: 1px solid #ccc;
+  padding: 10px;/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
   padding: 10px;
+  text-align: center;
+}
+
+h1 {
+  color: magenta;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: blue;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px; 
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+}
+
+/* Section styles */
+.grooming-section {
+  background-color: #FFCC66; 
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.pets-hotel-section {
+  background-color: #FF9999; 
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.pet-day-camp-section {
+  background-color: #FF9966; 
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 }
 
 /* CSS for Collapsible Content */
