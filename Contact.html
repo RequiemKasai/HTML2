@@ -1,43 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meown - Contact Us</title>
     <link rel="stylesheet" type="text/css" href="Contact.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      $(document).ready(function(){
-        $('#back-btn').click(function(){
-          window.history.back();
+        $(document).ready(function(){
+            $('#back-btn').click(function(){
+                window.history.back();
+            });
         });
-      });
     </script>
-  </head>
-  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script>
+        // nitialize and add map
+        function initMap() {
+            //ocation of pet studio
+            var studioLocation = {lat: 53.5444, lng: -113.4909}; 
+            var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 15, center: studioLocation});
+            var marker = new google.maps.Marker({position: studioLocation, map: map});
+        }
+    </script>
+</head>
+<body>
 
-  <section id="contact-page">
+<section id="contact-page">
     <header>
-      <h1 class="Title">Contact Us</h1>
+        <h1 class="Title">Contact Us</h1>
     </header>
     <main>
-      <section class="contact" id="back-button-section">
-        <button id="back-btn">Back</button>
-      </section>
-      <section class="contact" id="email-section">
-        <h2>Email Address</h2>
-        <p>meown@gmailll.cam</p>
-      </section>
-      <section class="contact" id="mailing-section">
-        <h2>Mailing Address</h2>
-        <p>175 Bark Street, Cat City, CAIL</p>
-      </section>
-      <section class="contact" id="phone-section">
-        <h2>Phone Number</h2>
-        <p>(123) 456-7890</p>
-      </section>
+        <section class="contact" id="back-button-section">
+            <button id="back-btn">Back</button>
+        </section>
+        <section class="contact" id="email-section">
+            <h2>Email Address</h2>
+            <p>meown@gmailll.cam</p>
+        </section>
+        <section class="contact" id="mailing-section">
+            <h2>Mailing Address</h2>
+            <p>175 Bark Street, Cat City, CAIL</p>
+        </section>
+        <section class="contact" id="phone-section">
+            <h2>Phone Number</h2>
+            <p>(123) 456-7890</p>
+        </section>
+        <section class="contact" id="map-section">
+            <h2>Location</h2>
+            <div id="map" style="height: 400px;"></div>
+        </section>
     </main>
-  </section>
+</section>
 
-  </body>
+</body>
 </html>
