@@ -40,6 +40,11 @@ nav ul li {
   margin-right: 10px;
 }
 
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
 #back-btn {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -54,6 +59,7 @@ nav ul li {
   border-radius: 5px;
 }
 
+/* CSS for Footer */
 footer {
   background-color: #f0f0f0;
   padding: 20px;
