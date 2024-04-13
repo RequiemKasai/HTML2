@@ -1,0 +1,47 @@
+<data>
+  <grooming>
+    <service>Service 1</service>
+    <service>Service 2</service>
+    <service>Service 3</service>
+  </grooming>
+  <pets_hotel>
+    <room>
+      <name>Hotel Room 1</name>
+      <details>Details about pets hotel room 1</details>
+    </room>
+    <room>
+      <name>Hotel Room 2</name>
+      <details>Details about pets hotel room 2</details>
+    </room>
+  </pets_hotel>
+  <pet_day_camp>
+    <day1>
+      <session>
+        <name>Day 1 - Outdoor Adventure</name>
+        <details>Hiking, exploring, and outdoor games.</details>
+      </session>
+      <session>
+        <name>Day 1 - Creative Arts</name>
+        <details>Crafts, painting, and creative expression.</details>
+      </session>
+      <session>
+        <name>Day 1 - Training Workshop</name>
+        <details>Basic obedience training and agility exercises.</details>
+      </session>
+    </day1>
+    <day2>
+      <session>
+        <name>Day 2 - Pet Olympics</name>
+        <details>Competitions and games for pets.</details>
+      </session>
+      <session>
+        <name>Day 2 - Nature Walk</name>
+        <details>Exploring nature trails and wildlife.</details>
+      </session>
+      <session>
+        <name>Day 2 - Relaxation Session</name>
+        <details>Relaxing activities and massage for pets.</details>
+      </session>
+    </day2>
+  </pet_day_camp>
+</data>

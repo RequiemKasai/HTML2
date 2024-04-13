@@ -1,0 +1,23 @@
+{
+  "grooming": {
+    "services": ["Service 1", "Service 2", "Service 3"]
+  },
+  "pets_hotel": {
+    "rooms": [
+      {"name": "Hotel Room 1", "details": "Details about pets hotel room 1"},
+      {"name": "Hotel Room 2", "details": "Details about pets hotel room 2"}
+    ]
+  },
+  "pet_day_camp": {
+    "day1": [
+      {"name": "Day 1 - Outdoor Adventure", "details": "Hiking, exploring, and outdoor games."},
+      {"name": "Day 1 - Creative Arts", "details": "Crafts, painting, and creative expression."},
+      {"name": "Day 1 - Training Workshop", "details": "Basic obedience training and agility exercises."}
+    ],
+    "day2": [
+      {"name": "Day 2 - Pet Olympics", "details": "Competitions and games for pets."},
+      {"name": "Day 2 - Nature Walk", "details": "Exploring nature trails and wildlife."},
+      {"name": "Day 2 - Relaxation Session", "details": "Relaxing activities and massage for pets."}
+    ]
+  }
+}
