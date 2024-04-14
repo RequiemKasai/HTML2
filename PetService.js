@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  //FUnction Load XML file
+  //Function to Load XML file
   function loadXMLData() {
     $.ajax({
       type: "GET",
@@ -49,7 +49,7 @@ $(document).ready(function(){
     });
   }
 
-  //Function load JSON file
+  //Function to load JSON file
   function loadJSONData() {
     $.getJSON("data.json", function(data) {
       var petsHotelRooms = '';
