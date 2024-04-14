@@ -35,7 +35,6 @@ h1 {
   color: magenta;
   font-weight: bold;
   font-size: 34px;
-  margin: 0; /* Center the heading */
 }
 
 /* Navigation bar styles */
@@ -45,41 +44,44 @@ nav {
   text-align: center;
 }
 
-nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
+nav a {
+  color: blue;
   text-decoration: none;
-  margin-right: 10px;
+  margin: 0 10px;
+  font-size: 18px; 
+}
+
+.nav-button {
+  display: inline-block;
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
 }
 
 /* Section styles */
 .grooming-section {
-  background-color: #FFCC66;
+  background-color: #FFCC66; 
   color: #333;
   padding: 20px;
   text-align: center;
 }
 
 .pets-hotel-section {
-  background-color: #FF9999;
+  background-color: #FF9999; 
   color: #333;
   padding: 20px;
   text-align: center;
 }
 
 .pet-day-camp-section {
-  background-color: #FF9966;
+  background-color: #FF9966; 
   color: #333;
   padding: 20px;
   text-align: center;
