@@ -28,7 +28,7 @@
   padding: 10px;
 }
 
-/*Navigation Bar*/
+/*Nav Bar*/
 nav {
   background-color: #666;
   padding: 10px;
@@ -43,17 +43,21 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  background-color: #4CAF50; /* Green background color */
-  margin-right: 10px;
 }
 
 nav ul li a {
-  display: inline-block;
-  padding: 10px 20px;
+  background-color: #4CAF50; 
+  border: none;
   color: white;
+  padding: 10px 20px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
 }
-
 
 #back-btn {
   background-color: #4CAF50; 
