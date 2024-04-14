@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // Function to load data from XML file
+  //FUnction Load XML file
   function loadXMLData() {
     $.ajax({
       type: "GET",
@@ -8,7 +8,7 @@ $(document).ready(function(){
       success: function(xml) {
         var petDayCampSessions = '';
 
-        // Pet Day Camp Sessions - Day 1
+        //Day 1
         $(xml).find('day1').find('session').each(function(){
           var sessionName = $(this).find('name').text();
           var sessionDetails = $(this).find('details').text();
@@ -19,7 +19,7 @@ $(document).ready(function(){
         });
         $('.pet-day-camp-section .collapsible-set:eq(0)').html(petDayCampSessions);
 
-        // Pet Day Camp Sessions - Day 2
+        //Day 2
         var petDayCampSessionsDay2 = '';
         $(xml).find('day2').find('session').each(function(){
           var sessionName = $(this).find('name').text();
@@ -31,7 +31,7 @@ $(document).ready(function(){
         });
         $('.pet-day-camp-section .collapsible-set:eq(1)').html(petDayCampSessionsDay2);
 
-        // Pet Day Camp Sessions - Day 3
+        //Day 3
         var petDayCampSessionsDay3 = '';
         $(xml).find('day3').find('session').each(function(){
           var sessionName = $(this).find('name').text();
@@ -49,7 +49,7 @@ $(document).ready(function(){
     });
   }
 
-  // Function to load data from JSON file
+  //Function load JSON file
   function loadJSONData() {
     $.getJSON("data.json", function(data) {
       var petsHotelRooms = '';
@@ -67,18 +67,18 @@ $(document).ready(function(){
     });
   }
 
-  // Toggle collapsible content on click
+  //Collapsible content 
   $(document).on('click', '.collapsible h3', function() {
     $(this).next('.content').slideToggle();
   });
 
-  // Load data from XML file
+  //Load XML
   loadXMLData();
 
-  // Load data from JSON file
+  //Load JSON 
   loadJSONData();
 
-  // Back button functionality
+  //Back button 
   $('#back-btn').click(function(){
     window.history.back();
   });
