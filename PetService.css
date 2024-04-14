@@ -7,93 +7,61 @@
 
 .grid-item {
   border: 1px solid #ccc;
-  padding: 10px;/* General styles */
-body {
-  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+
+/* CSS for Collapsible Content */
+.collapsible {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.collapsible h3 {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 0;
+  cursor: pointer;
+}
+
+.collapsible .content {
+  display: none;
+  padding: 10px;
+}
+
+/* Add more styling for toggling the content visibility */
+nav ul {
+  display: flex;
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
-/* General styles */
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: black;
-}
-
-/* Header styles */
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-}
-
-h1 {
-  color: magenta;
-  font-weight: bold;
-  font-size: 34px;
-}
-
-/* Navigation bar styles */
-nav {
-  background-color: #666;
-  padding: 10px;
-  text-align: center;
+nav ul li {
+  margin-right: 10px;
 }
 
 nav a {
-  color: blue;
+  color: white;
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 18px; 
 }
 
-.nav-button {
-  display: inline-block;
-  background-color: #4CAF50; 
+#back-btn {
+  background-color: #4CAF50; /* Green */
   border: none;
   color: white;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  padding: 10px 24px;
+  border-radius: 5px;
 }
 
-/* Section styles */
-.grooming-section {
-  background-color: #FFCC66; 
-  color: #333;
-  padding: 20px;
-  text-align: center;
-}
-
-.pets-hotel-section {
-  background-color: #FF9999; 
-  color: #333;
-  padding: 20px;
-  text-align: center;
-}
-
-.pet-day-camp-section {
-  background-color: #FF9966; 
-  color: #333;
-  padding: 20px;
-  text-align: center;
-}
-
-/* Footer styles */
+/* CSS for Footer */
 footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
